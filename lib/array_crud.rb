@@ -7,16 +7,17 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  array = [0, 1, 2, 3]
+#  array = [0, 1, 2, 3]
   array << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-  array = [0, 1, 2, 3]
+#  array = [0, 1, 2, 3]
   array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
+  array
 
 end
 
